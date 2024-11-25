@@ -1,0 +1,33 @@
+{
+  "name": "webclass-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "DEV",
+  "dependencies": {
+    "@sendgrid/client": "^8.1.0",
+    "@sendgrid/mail": "^8.1.0",
+    "aws-sdk": "^2.1325.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "calendar-link": "^2.6.0",
+    "colors": "^1.4.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^140.0.1",
+    "ics": "^3.7.6",
+    "moment-timezone": "^0.5.44",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "serverless-http": "^3.2.0",
+    "twilio": "^4.10.0",
+    "uuid": "^10.0.0"
+  }
+}
